@@ -76,5 +76,44 @@ hr {
     color: #f50017;
     border-bottom-color: #F7A7A7;
   }
-  
+
 /* END article */
+
+/* BEGIN nav */
+
+.nav {
+  width: 150px;
+  margin: 30px 0;
+}
+
+.nav-list:hover > .nav-list__item {
+  opacity: 0.5;
+}
+
+.nav-list:hover > .nav-list__item:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.nav-list__item {
+  width: 150px;
+  margin-top: 5px;
+}
+
+.sprite {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  padding-right: 10px;
+}
+
+.nav-list__link {
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  border: none;
+  color: #000;
+}
+
+/* END nav */
