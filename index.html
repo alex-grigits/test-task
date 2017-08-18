@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Test task</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/sprites.css">
 </head>
 <body>
   <div class="container">
@@ -120,6 +119,41 @@
     </div>
 
     <hr>
+
+    <form action="" class="reg-form">
+
+      <label class="reg-form__label" for="name">Имя пользователя:</label>
+      <div class="input-box">
+          <input class="reg-form__txt-input" type="text" id="name">
+          <span></span>
+      </div>
+      
+      <label class="reg-form__label" for="email">Email:</label>
+      <div class="input-box">
+        <input class="reg-form__txt-input" type="text" id="email">
+        <span></span>
+      </div>
+
+      <label class="reg-form__label" for="form-textarea">Немного информации:</label>
+      <div class="input-box">
+        <textarea class="reg-form__txt-input  reg-form__txt-input--textarea" name="info" id="form-textarea"></textarea>
+         <span></span> 
+      </div>
+
+      <div class="form-gender">        
+        <input class="reg-form__radio-input" type="radio" value="male" name="gender" id="male">
+        <label class="reg-form__label  reg-form__label--inline" for="male">Мужчина</label>
+      
+        <input class="reg-form__radio-input" type="radio" value="female" name="gender" id="female">
+        <label class="reg-form__label  reg-form__label--inline" for="female">Женщина</label>
+      
+        <input class="reg-form__radio-input" type="radio" value="other" name="gender" id="other">
+        <label class="reg-form__label  reg-form__label--inline" for="other">Другое</label>
+      </div>
+
+      <button type="button" value="Регистрация" class="reg-form__btn bottom-to-top">Регистрация</button>
+
+    </form>
 
   </div>
 </body>
